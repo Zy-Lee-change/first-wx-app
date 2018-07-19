@@ -1,0 +1,67 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">人进来说一个最近心里暗爽美滋滋又不方便对别人...</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon1.jpeg"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">董不懂</text>
+                <text class="answerer-des">WEB前端*不靠谱天气预报员*想做代码死肥宅</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。
+
+        </text>
+        <text>我先说：老公国内top1学校博士后出站以后因为抱了大粗腿，去985高校评了正高职称，带了四个博士过去迅速成立了自己的团队，和央企合作项目，成立了公司，非常受大粗腿器重，带了10个研究生，一起聚餐时，大家都给我敬酒叫我师母，我好爽呀！！！我以前在自己单位吃饭最发怵，坐立难安的，这次终于可以随便吃随便喝，爽爽爽！</text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+        <text>
+            我来更新啦！没想到大家还有点点喜欢这个帖子，我好开心啊！
+
+        </text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../images/good-bad.png"></image>
+            </view>
+            <view class="good-num">2.1k</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../images/flag.png"></image>
+                    <text>没有帮助</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>感谢</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>302</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

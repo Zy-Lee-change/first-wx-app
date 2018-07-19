@@ -1,0 +1,225 @@
+<!--question.wxml-->
+<view class="container">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-tag">
+                <text class="tag">阅读</text>
+                <text class="tag">Life</text>
+                <text class="tag">Kindle</text>
+                <text class="tag">杂碎书籍</text>
+                <text class="tag">诡学</text>
+            </view>
+            <view class="que-title">
+                每人进来说一个最近心里暗爽美滋滋又不方便对别人...
+            </view>
+            <view class="que-content">
+                WEB前端*不靠谱天气预报员*想做代码死肥宅
+            </view>
+            <view class="que-follow">
+                <view class="left">
+                    <view class="watch">
+                        <image src="../../images/eye.png"></image>
+                        <text>3316</text>
+                    </view>
+                    <view class="comment">
+                        <image src="../../images/comment2.png"></image>
+                        <text>27</text>
+                    </view>
+                </view>
+                <view class="right">
+                    关注
+                </view>
+            </view>
+        </view>
+        <view class="que-operate flex-wrp">
+            <view class="invite flex-item">
+                <image src="../../images/invite.png"></image>
+                <text>邀请回答</text>
+            </view>
+            <view class="write flex-item">
+                <image src="../../images/write.png"></image>
+                <text>写回答</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.2K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>151 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>1 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca1</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>2.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>224 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca3</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。 </text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="../../images/icon1.jpeg"></image>
+                    </view>
+                    <text>Rebecca</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">有时候自己身上发生了什么好事，自己美的不行，但是又不好和好朋友们分享，怕打击到别人，让人以为在臭显摆或者高姿态有优越感什么的，只能自己偷着乐，但是好不爽啊，好想说出来！就在这里说吧！哈哈。</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>3.9K 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>254 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>2 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

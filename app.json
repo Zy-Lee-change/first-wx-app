@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/discovery/discovery",
+    "pages/notify/notify",
+    "pages/chat/chat",
+    "pages/more/more",
+    "pages/answer/answer",
+    "pages/question/question"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1aad19",
+    "navigationBarTitleText": "Life ZaZaSui",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index1.png"
+    }, {
+      "pagePath": "pages/discovery/discovery",
+      "text": "",
+      "iconPath": "images/hot.png",
+      "selectedIconPath": "images/hot1.png"
+    }, {
+      "pagePath": "pages/notify/notify",
+      "text": "",
+      "iconPath": "images/office.png",
+      "selectedIconPath": "images/office1.png"
+    }, {
+      "pagePath": "pages/chat/chat",
+      "text": "",
+      "iconPath": "images/msg.png",
+      "selectedIconPath": "images/msg1.png"
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "",
+      "iconPath": "images/operation.png",
+      "selectedIconPath": "images/operation1.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

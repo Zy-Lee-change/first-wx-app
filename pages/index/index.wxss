@@ -1,0 +1,57 @@
+/**index.wxss**/
+.search{
+  width: 100%;
+  height: 65rpx;
+  padding: 12.5rpx 0 12.5rpx 15rpx;
+  background: #1aad19;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.search-left{
+  flex: 8;
+  background: #a2e2a2;
+  text-align: left;
+}
+.search-left input{
+  float: left;
+  height: 65rpx;
+  font-size: 26rpx;
+}
+.search-placeholder{
+  color: #F0F4F3;
+  /* line-height: 20rpx; */
+}
+.search .search-left image{
+  float: left;
+  width: 35rpx;
+  height: 35rpx;
+  padding: 15rpx 15rpx 15rpx 20rpx;
+}
+.search .search-right{
+  flex: 1;
+}
+.search .search-right image{
+  width: 45rpx;
+  height: 45rpx;
+  padding: 10rpx;
+}
+.container{
+  height: 100%;
+  overflow-y: auto;
+  padding: 95rpx 0 0 0;
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+.container samp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rpx;
+  height: 1rpx;
+  background-color: #a2e2a2;
+  transition: all 0.3s;
+}
+/*feed-item part is in app.wxss for multiplexing*/
